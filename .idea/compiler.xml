@@ -7,11 +7,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="activeMQ-normal" />
+        <module name="springbootactivemq" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="activeMQ-normal" target="6" />
       <module name="activeMQ-normal-version" target="1.7" />
+      <module name="springbootactivemq" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springbootactivemq" options="-parameters" />
+    </option>
   </component>
 </project>

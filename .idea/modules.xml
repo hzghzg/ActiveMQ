@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/ActiveMQ.iml" filepath="$PROJECT_DIR$/.idea/ActiveMQ.iml" />
       <module fileurl="file://$PROJECT_DIR$/activeMQ-normal/activeMQ-normal.iml" filepath="$PROJECT_DIR$/activeMQ-normal/activeMQ-normal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springbootactivemq/springbootactivemq.iml" filepath="$PROJECT_DIR$/springbootactivemq/springbootactivemq.iml" />
     </modules>
   </component>
 </project>
