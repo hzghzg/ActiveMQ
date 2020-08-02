@@ -4,7 +4,7 @@ import org.apache.activemq.ActiveMQConnectionFactory;
 
 import javax.jms.*;
 
-public class JMSProducer {
+public class JMSQueueProducer {
     public static final String ACTIVEMQ_SERVICE_URL = "tcp://192.168.0.100:61616";
     public static final String QUEUE_NAME = "HUANGDA7_QUEUE";
 
@@ -17,7 +17,7 @@ public class JMSProducer {
         Queue queue = session.createQueue(QUEUE_NAME);
         //创建消息的生产者
         MessageProducer producer = session.createProducer(queue);
-        for (int i = 1; i < 3; i++) {
+        for (int i = 1; i <6; i++) {
             TextMessage textMessage = session.createTextMessage("生产者发送的第" + i + "条消息");
             producer.send(textMessage);
         }

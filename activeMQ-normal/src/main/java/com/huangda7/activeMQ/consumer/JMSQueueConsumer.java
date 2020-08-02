@@ -5,7 +5,7 @@ import org.apache.activemq.ActiveMQConnectionFactory;
 import javax.jms.*;
 import java.io.IOException;
 
-public class JMSConsumer {
+public class JMSQueueConsumer {
     public static final String ACTIVEMQ_SERVICE_URL = "tcp://192.168.0.100:61616";
     public static final String QUEUE_NAME = "HUANGDA7_QUEUE";
 
